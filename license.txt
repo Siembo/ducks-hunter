@@ -1,0 +1,17 @@
+background: 
+	- from old Project-img-files
+
+ducks images: 
+	- DUCK HUNT JS v2.0 - MIT License
+	- created by Matthew Surabian
+	- http://mattsurabian.com/duckhunt
+	- edited by Bo Li
+
+backsound: 
+	- Recorded by Bo Li
+
+
+shots: 
+	- source: http://soundbible.com/1262-10-Guage-Shotgun.html
+	- Uploaded: 12.20.09 | License: Attribution 3.0 | Recorded by Mike Koenig
+	- edited by Bo Li

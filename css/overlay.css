@@ -1,0 +1,122 @@
+/* This element creates the transparent shadow background */
+div.overlay {
+    display: none;  /* by default do not display the div.overlay */
+    position: fixed; top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.8);
+    z-index: 999;
+
+    -webkit-user-select: auto;
+    -moz-user-select: auto;
+    -ms-user-select: auto;
+}
+/* 
+  When the body is in state "overlaid" then 
+  1) suppress text selection,
+  2) create the transparent shadow background, and display the active overlay 
+     content element (e.g. the dialog element) 
+*/
+body.overlaid {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+body.overlaid div.overlay {
+  display: block;
+}
+
+/* ================================================= 
+   The user data dialog overlay window 
+   ================================================= */
+#dialog {
+  display: none;
+  width: 20em;
+  height: 85%;
+  font-size: 0.9em;
+  background: #fff;
+  resize: both;
+  overflow: auto;
+  border-radius: 10px;
+  margin-top: 3%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+}
+#dialog.noTables {
+    height: 50%;
+    margin-top: 10%;
+}
+#dialog div {
+    display: inline-block;
+    margin-bottom: 0.7em;
+}
+#dialog h1 {
+  display: inline-block;
+  font-size: 1.5em;
+  margin-top: 0;
+  margin-right: 1em;
+}
+#dialog div.label-field {
+  margin-right: 1em;
+}
+#dialog input, #dialog select {
+  margin-left: 0.5em;
+}
+#dialog button {
+  margin-right: 0.5em;
+}
+#dialog table {
+  display: none;
+  margin-top: 1em;
+  margin-right: 1em;
+  margin-bottom: 1em;
+}
+#dialog table td, #dialog table th {
+  padding: 3px;
+}
+#dialog table td[data-count="1"] {
+  background: hsl(120, 100%, 85%);  
+}
+#dialog table td[data-count="2"] {
+  background: hsl(120, 100%, 75%);  
+}
+#dialog table td[data-count="3"] {
+  background: hsl(120, 100%, 65%);  
+}
+#dialog table td[data-count="4"] {
+  background: hsl(120, 100%, 55%);  
+}
+#dialog table td[data-count="5"] {
+  background: hsl(120, 100%, 45%);  
+}
+/* Style adjustments for mini-tablet-size viewports */
+@media only screen and (min-width: 36em) { 
+  #dialog {
+     width: 33em;
+     font-size: 1em;
+  }
+}
+/* ================================================= 
+   The exercise help text overlay 
+   ================================================= */
+#exerciseHelpText {
+  position: absolute; 
+  top: 10%; 
+  left: 5%; 
+  width: 90%;
+  text-align: center;
+  font-size: 1.5em;
+  display: none;
+  color: white;
+  resize: both;
+  overflow: auto;
+}
+/* Style adjustments for MINI-TABLET-size or larger viewports */
+@media only screen and (min-width: 600px) and (min-height: 600px) { 
+  #exerciseHelpText {
+    top: 20%; left: 10%; 
+    width: 80%;
+    font-size: 1.7em;
+  }
+}

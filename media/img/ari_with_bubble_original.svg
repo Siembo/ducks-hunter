@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.1"
+   width="47.333"
+   height="49"
+   viewBox="0 0 47.333 49"
+   id="Layer_1"
+   xml:space="preserve"
+   style="overflow:visible">
+   <title>green alien smiley with bubble</title>
+<metadata><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title>green alien smiley with bubble</dc:title>
+		 <dc:creator>Mariana Ruiz</dc:creator>
+		 <dc:date>19 August 2011</dc:date><dc:source>http://commons.wikimedia.org/wiki/File:Smiley_green_alien_bubble.svg</dc:source>
+		 <dc:description>green alien smiley with bubble</dc:description>
+		 <cc:license
+         rdf:resource="http://creativecommons.org/licenses/publicdomain/" /></cc:Work>
+	<cc:License
+       rdf:about="http://creativecommons.org/licenses/publicdomain/"><cc:permits
+         rdf:resource="http://creativecommons.org/ns#Reproduction" /><cc:permits
+         rdf:resource="http://creativecommons.org/ns#Distribution" /><cc:permits
+         rdf:resource="http://creativecommons.org/ns#DerivativeWorks" /></cc:License></rdf:RDF>
+</metadata>
+<defs
+   id="defs85" />
+<g
+   id="g3">
+	<ellipse
+   cx="25.132"
+   cy="45.667"
+   rx="18.427999"
+   ry="2.184"
+   id="ellipse5"
+   style="opacity:0.75;fill:#bdbec0" />
+	<path
+   d="m 42.328,26.539 c 0.288,1.341 0.661,2.67 0.688,4.064 0.039,1.983 -0.531,3.708 -1.594,5.415 -1.195,1.919 -2.332,3.785 -4.17,5.146 -3.048,2.254 -7.172,3.453 -10.94,3.205 C 24.877,44.275 23.455,44.536 21.998,44.35 20.384,44.144 18.811,43.701 17.305,43.09 14.948,42.133 12.426,42.017 10.231,40.576 8.33,39.328 6.794,36.703 6.359,34.514 6.136,33.393 6.008,32.083 6.067,30.922 6.113,30.015 6.376,29.134 6.422,28.228 6.46,27.482 6.367,26.733 6.39,25.985 6.485,22.992 7.347,20.049 8.872,17.473 12.948,10.59 20.919,7.436 28.317,9.157 c 0,0 0.391,-0.301 0.391,-0.328 0.477,0.014 1.047,-0.135 1.531,-0.141 -0.076,0.23 -0.145,0.418 -0.193,0.525 l 0.445,0.598 c 0.988,0.367 1.959,0.828 2.898,1.387 0.695,0.41 1.352,0.861 1.971,1.348 l 0.723,0.061 c 0.078,-0.09 0.982,1.471 0.982,1.471 1.929,1.969 3.384,4.386 4.231,7.008 0.303,0.938 0.674,2.039 0.698,3.032 0.021,0.82 0.162,1.622 0.334,2.421 z"
+   id="path7"
+   style="fill:#8cc641;stroke:#046132;stroke-width:0.4831" />
+	
+		<radialGradient
+   cx="-76.7173"
+   cy="28.0625"
+   r="29.2031"
+   id="XMLID_7_"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(-0.7535,-0.6575,0.6575,-0.7535,-50.2913,-15.1829)">
+		<stop
+   id="stop10"
+   style="stop-color:#fcee23;stop-opacity:1"
+   offset="0" />
+		<stop
+   id="stop12"
+   style="stop-color:#04714e;stop-opacity:1"
+   offset="0.92699999" />
+		<stop
+   id="stop14"
+   style="stop-color:#076e3a;stop-opacity:1"
+   offset="1" />
+	</radialGradient>
+	<path
+   d="m 20.212,43.52 c 1.346,0.316 2.729,0.469 4.112,0.458 2.446,-0.02 8.808,0.606 13.99,-4.576 1.928,-1.928 3.17,-4.281 3.87,-6.907 0.637,-2.391 -0.271,-4.588 -0.638,-6.912 -0.229,-1.447 -0.408,-2.877 -0.861,-4.284 -0.962,-2.98 -2.739,-5.665 -5.099,-7.724 -7.215,-6.295 -18.168,-5.549 -24.465,1.664 -2.484,2.85 -3.988,6.477 -4.236,10.248 -0.11,1.668 0.336,3.128 -0.034,4.797 -0.574,2.589 0.213,5.7 1.827,7.756 1.453,1.853 3.212,2.573 5.361,3.322 2.025,0.706 4.093,1.67 6.173,2.158 z"
+   id="path16"
+   style="fill:url(#XMLID_7_);stroke:#2b9145;stroke-width:0.4831" />
+	<path
+   d="m 38.951,9.525 c -0.438,-1.076 -0.374,-2.343 0.29,-3.406 1.094,-1.761 3.41,-2.301 5.173,-1.205 1.759,1.096 2.297,3.412 1.201,5.172 -1.096,1.763 -3.412,2.301 -5.17,1.203 -0.165,-0.101 -3.416,2.373 -3.416,2.373 -0.14,-0.142 -0.232,0.87 -0.308,0.686 -1.385,-1.451 -0.465,-1.97 -0.367,-2.322 0.859,-0.825 2.653,-2.37 2.597,-2.501 z"
+   id="path18"
+   style="fill:#8cc641;stroke:#046132;stroke-width:0.4831" />
+	
+		<radialGradient
+   cx="104.2866"
+   cy="167.0791"
+   r="4.2543998"
+   id="XMLID_8_"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(-0.0272,0.9997,-0.9997,-0.0272,211.3107,-90.855)">
+		<stop
+   id="stop21"
+   style="stop-color:#fcee23;stop-opacity:1"
+   offset="0" />
+		<stop
+   id="stop23"
+   style="stop-color:#076e3a;stop-opacity:1"
+   offset="1" />
+	</radialGradient>
+	<circle
+   cx="42.428001"
+   cy="8.0550003"
+   r="3.1589999"
+   id="circle25"
+   style="opacity:0.5;fill:url(#XMLID_8_)" />
+	<path
+   d="m 29.578,7.386 c 0.176,0.32 1.191,0.615 0.178,2.344 -0.033,0.199 -0.354,-0.766 -0.457,-0.596 0,0 -3.734,-1.66 -3.869,-1.523 -1.461,1.473 -3.838,1.48 -5.311,0.018 -1.471,-1.461 -1.479,-3.838 -0.02,-5.311 1.463,-1.471 3.842,-1.479 5.311,-0.016 0.891,0.883 1.244,2.1 1.066,3.248 -0.023,0.14 2.076,1.23 3.102,1.836 z"
+   id="path27"
+   style="fill:#8cc641;stroke:#046132;stroke-width:0.4831" />
+	
+		<radialGradient
+   cx="90.416496"
+   cy="137.0303"
+   r="4.2549"
+   id="XMLID_9_"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(0.2563,0.9666,0.9666,-0.2563,-131.7361,-46.8119)">
+		<stop
+   id="stop30"
+   style="stop-color:#fcee23;stop-opacity:1"
+   offset="0" />
+		<stop
+   id="stop32"
+   style="stop-color:#076e3a;stop-opacity:1"
+   offset="1" />
+	</radialGradient>
+	<circle
+   cx="22.754999"
+   cy="4.9180002"
+   r="3.1589999"
+   id="circle34"
+   style="opacity:0.5;fill:url(#XMLID_9_)" />
+	
+		<radialGradient
+   cx="-152.313"
+   cy="-404.3428"
+   r="5.4356999"
+   id="XMLID_10_"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(0.8924,0.4511,-0.4511,0.8924,-23.9961,466.7646)">
+		<stop
+   id="stop37"
+   style="stop-color:#1e3319;stop-opacity:1"
+   offset="0" />
+		<stop
+   id="stop39"
+   style="stop-color:#006e3a;stop-opacity:1"
+   offset="1" />
+	</radialGradient>
+	<path
+   d="m 20.38,37.246 c -0.181,-0.113 -0.34,-0.271 -0.467,-0.482 -0.817,-1.355 0.032,-4.49 0.76,-5.743 0.612,-1.054 2.56,-0.269 3.277,0.716 0.775,1.063 0.704,2.744 0.188,3.906 -0.526,1.185 -2.598,2.326 -3.758,1.603 z"
+   id="path41"
+   style="fill:url(#XMLID_10_)" />
+	<path
+   d="m 20.066,34.274 c 0.145,-0.437 0.274,-0.852 0.298,-1.203 0.077,-1.115 -0.214,-2.901 1.553,-2.457 1.605,0.405 2.423,1.974 2.248,3.529 -0.185,1.646 -2.372,5.186 -4.219,3.094 -0.664,-0.751 -0.225,-1.921 0.12,-2.963 z"
+   id="path43"
+   style="fill:none;stroke:#1e3319;stroke-width:0.53780001" />
+	<g
+   id="g45">
+		
+			<radialGradient
+   cx="17.274401"
+   cy="188.98241"
+   r="3.4862001"
+   id="XMLID_11_"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(0.9863,-0.165,-0.2447,-1.4628,58.2266,294.2338)">
+			<stop
+   id="stop48"
+   style="stop-color:#57585a;stop-opacity:1"
+   offset="0" />
+			<stop
+   id="stop50"
+   style="stop-color:#010101;stop-opacity:1"
+   offset="1" />
+		</radialGradient>
+		<path
+   d="m 26.757,16.667 c -0.051,0.193 -0.087,0.387 -0.107,0.577 -0.192,1.801 -0.139,3.306 0.339,5.046 0.326,1.187 0.643,2.85 2.274,2.607 0.918,-0.137 1.889,-0.737 2.761,-1.107 0.591,-0.25 1.572,-0.323 2.086,-0.672 1.079,-0.733 0.904,-2.647 0.531,-3.694 -0.659,-1.849 -1.694,-4.022 -3.248,-5.279 -1.964,-1.591 -4.102,0.48 -4.636,2.522 z"
+   id="path52"
+   style="fill:url(#XMLID_11_)" />
+		<path
+   d="m 29.142,14.983 c -0.013,-0.031 -0.03,-0.062 -0.053,-0.091 -0.31,-0.406 -1.029,0.19 -0.563,0.555 0.334,0.26 0.758,-0.124 0.616,-0.464 z"
+   id="path54"
+   style="fill:#ffffff" />
+		<path
+   d="m 27.353,17.632 c 0.002,0.672 0.14,1.482 0.478,2.074 -0.011,-0.678 0.03,-1.224 0.255,-1.841 0.119,-0.324 0.888,-1.994 -0.196,-1.707 -0.444,0.118 -0.538,1.108 -0.537,1.474 z"
+   id="path56"
+   style="fill:#ffffff" />
+	</g>
+	<g
+   id="g58">
+		
+			<radialGradient
+   cx="16.249001"
+   cy="206.40919"
+   r="3.9342999"
+   id="XMLID_12_"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(0.9984,0.057,0.0845,-1.4807,-17.5142,320.9097)">
+			<stop
+   id="stop61"
+   style="stop-color:#57585a;stop-opacity:1"
+   offset="0" />
+			<stop
+   id="stop63"
+   style="stop-color:#010101;stop-opacity:1"
+   offset="1" />
+		</radialGradient>
+		<path
+   d="m 23.354,19.152 c 0.639,-1.898 0.785,-4.355 -0.708,-5.933 -0.354,-0.375 -0.719,-0.428 -1.244,-0.397 -0.874,0.05 -1.89,0.529 -2.641,1.018 -1.696,1.105 -3.481,2.96 -4.063,4.924 -1.356,4.582 5.161,6.067 7.482,2.736 0.487,-0.697 0.889,-1.5 1.174,-2.348 z"
+   id="path65"
+   style="fill:url(#XMLID_12_)" />
+		<path
+   d="m 20.426,14.646 c 0.135,-0.101 0.171,-0.266 -0.032,-0.461 -0.396,-0.38 -1.323,-0.014 -0.683,0.464 0.204,0.152 0.541,0.127 0.715,-0.003 z"
+   id="path67"
+   style="fill:#ffffff" />
+		<path
+   d="m 17.992,15.394 c -0.132,0.099 -0.248,0.198 -0.306,0.247 -0.534,0.453 -0.915,1.079 -1.191,1.716 0.396,-0.585 1.072,-0.825 1.658,-1.167 0.277,-0.162 1.254,-0.82 0.416,-1.066 -0.127,-0.038 -0.372,0.116 -0.577,0.27 z"
+   id="path69"
+   style="fill:#ffffff" />
+	</g>
+	<path
+   d="m 26.279,28.083 c -1.229,0.913 -1.695,2.957 -1.688,4.438 0.008,1.505 0.277,3.877 1.313,5.063"
+   id="path71"
+   style="fill:none;stroke:#1e3319;stroke-width:0.53780001" />
+	<path
+   d="m 17.949,32.787 c 0.633,0.841 0.97,1.851 1.105,2.884 0.064,0.492 0.292,1.993 -0.346,2.228"
+   id="path73"
+   style="fill:none;stroke:#1e3319;stroke-width:0.53780001" />
+	<g
+   id="g75">
+		<circle
+   cx="12.709"
+   cy="32.217999"
+   r="11.967"
+   id="circle77"
+   style="opacity:0.73000004;fill:#edd1e5;stroke:#ce91c0;stroke-width:0.32800001" />
+		<path
+   d="M 11.69,24.333 C 12.14,23.746 11.443,23.117 10.85,22.843 9.262,22.108 6.822,23.32 5.573,24.3 4.4,25.221 3.482,26.62 2.945,28.001 c -0.736,1.893 -0.771,3.99 -0.252,5.986 0.165,0.634 0.48,1.636 1.038,2.054 C 3.653,34.857 3.257,33.717 3.355,32.525 3.451,31.357 3.826,30.217 4.384,29.191 5.481,27.17 7.382,25.43 9.679,24.952 c 0.585,-0.121 1.324,-0.024 1.829,-0.435 0.075,-0.06 0.135,-0.122 0.182,-0.184 z"
+   id="path79"
+   style="fill:#ffffff" />
+		<path
+   d="m 12.492,23.567 c 0.707,0.679 2.104,0.291 2.191,-0.765 0.063,-0.768 -0.994,-1.264 -1.688,-1.069 -0.782,0.219 -1.123,1.238 -0.503,1.834 z"
+   id="path81"
+   style="fill:#ffffff" />
+	</g>
+</g>
+</svg>

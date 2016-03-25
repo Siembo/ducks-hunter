@@ -1,0 +1,33 @@
+/* =======================================================================
+   Render box
+   ======================================================================= */
+#renderBox {
+  position: fixed; left: 0%; top: 15%;
+  width: 98%;
+  height: 65%;
+  font-size: 1.2em;
+  padding: 8px;
+  vertical-align: middle;
+  text-align: center;
+  display: none;
+  -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+}
+
+#canvas {
+	border: 1px solid black;
+}
+
+body.ducks #renderBox #playground {
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+
+  background: url('../../media/img/bg_sky.png') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  border-radius: 5px;
+}

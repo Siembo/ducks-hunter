@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <title>Ari123 - Demo for "Ducks Hunter - the Smart Duck"</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+  <meta name="format-detection" content="telephone=no">
+
+  <link rel="stylesheet" href="css/normalize.css"/>
+  <link rel="stylesheet" href="css/site.css"/>
+  <link rel="stylesheet" href="css/buttons.css"/>
+  <link rel="stylesheet" href="css/overlay.css"/>
+  <link rel="stylesheet" href="css/animations.css"/>
+  <link rel="stylesheet" href="css/main.css"/>
+
+  <!-- Replace with the CSS of your rendering form -->
+  <link rel="stylesheet" href="css/rf/ducks.css"/>
+
+  <style>
+/*<![CDATA[*/
+#oer-logo {
+  display: none;
+}
+  #demo {  /* Demo */
+    position: absolute; bottom: 20%; left: 10%;
+    font-size: 7em;
+    color: whitesmoke;
+    -moz-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+  }
+#demoDescription {
+  position: absolute; top: 8%; left: 0%;
+  padding: 5px;
+  color: grey;
+}
+#demoDescription > h1 {
+  font-size: 2em;
+  margin-top: 0;
+  margin-bottom: 0.3em;
+}
+#demoDescription > p {
+  font-size: 1em;
+}
+body.showRenderBox #demoDescription {
+  display: none;
+}
+/* Style adjustments for MINI-TABLET-size or larger viewports */
+@media only screen and (min-width: 600px) and (min-height: 600px) {
+  #oer-logo {
+    position: absolute; top: 20%; left: 2%;
+    display: block;
+  }
+  #demoDescription {
+    position: absolute; top: 10%; left: 15%;
+  }
+  #demoDescription > h1 {
+    font-size: 3em;
+  }
+  #demoDescription > p {
+    font-size: 1.6em;
+    width: 80%;
+  }
+  #demo {  /* Demo */
+    position: absolute; bottom: 20%; left: 15%;
+    font-size: 15em;
+    color: whitesmoke;
+    -moz-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+  }
+  #danger {
+    color: red;
+  }
+}
+/*]]>*/
+  </style>
+  <script src="lib/preloadjs-0.3.1.min.js"></script>
+  <script src="lib/easeljs-0.7.0.min.js"></script>
+  <script src="lib/soundjs-0.5.0.min.js"></script>
+
+  <script src="lib/browserShims.js"></script>
+  <script src="lib/util.js"></script>
+  <script src="lib/dom.js"></script>
+  <script src="lib/svg.js"></script>
+  <script src="model/application.js"></script>
+  <script src="model/BasicProblemStatistic.js"></script>
+  <script src="model/NumberRange.js"></script>
+  <script src="model/ArithmeticProblemType.js"></script>
+  <script src="model/generateMixedBinaryProblem.js"></script>
+  <script src="model/generateSortingNumbersProblem.js"></script>
+  <script src="model/generateRecognizeMultiplesProblem.js"></script>
+  <script src="model/ArithmeticProblem.js"></script>
+  <script src="model/RenderingForm.js"></script>
+  <script src="model/ArithmeticExercise.js"></script>
+  <script src="model/LearningUnit.js"></script>
+  <script src="model/Learner.js"></script>
+
+  <!-- Replace with the name of your rendering form -->
+  <script>
+    oa.demo = "ducks";
+  </script>
+
+  <!-- Replace with the model JS file of your rendering form -->
+  <script src="model/rf/ducks.js"></script>
+
+  <script src="dist/trans/translate.js"></script>
+  <script src="dist/trans/translateDE.js"></script>
+
+  <script src="view/application.js"></script>
+  <script src="view/standardEventHandlers.js"></script>
+  <script src="view/possibleAnswersPanel.js"></script>
+  <script src="dist/environment.js"></script>
+  <script src="ctrl/application.js"></script>
+  <script src="view/render.js"></script>
+
+  <!-- Replace with the view JS file of your rendering form -->
+  <script src="view/rf/ducks.js"></script>
+
+  <script src="view/fill.js"></script>
+
+  <script src="ctrl/startLearningUnit.js"></script>
+  <script src="ctrl/startExercise.js"></script>
+  <script src="ctrl/evaluateAnswer.js"></script>
+  <script src="ctrl/continueCurrentExercise.js"></script>
+  <script src="ctrl/continueCurrentLearningUnit.js"></script>
+
+  <script src="dist/data/arithmeticProblemTypes.js"></script>
+
+  <!-- Replace with the demo learning units file for your rendering form -->
+  <script src="dist/demo/ducksLearningUnits.js"></script>
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-59472992-2', 'auto');
+    ga('send', 'pageview');
+
+  </script>
+</head>
+<body class="demo">
+  <div id="logo">
+    <img src="media/img/ari.svg" />
+    <span class="atLeastMiniTabletInline">Ari 1+2&middot;3 <sup>beta</sup></span>
+  </div>
+  <div id="learnerDataForm"> <label><select id="languageSelect"></select></label></div>
+  <div id="logo-subtitle" class="largeScreen">
+    <span class="translate">An Open Education Portal</span><br />
+    <span class="translate">for Learning Arithmetic</span>
+    <img id="oer-logo" src="media/img/oer-logo-small.png" />
+   </div>
+
+  <div id="ari" class="smiling"></div>
+
+  <h1 id="demo">Demo</h1>
+  <div id="demoDescription">
+    <h2 id="danger">!!! There will be a loud music during this game !!!</h2>
+    <h1>Ducks Hunter - shoot the bad Duck</h1>
+    <p id="rfDescr" class="translate"></p>
+    <p id="helpTxt" class="translate"></p>
+  </div>
+
+  <div id="learningUnitSelection">
+    <div id="grades">
+      <h1 class="translate">Grade</h1>
+      <ul></ul>
+    </div>
+    <div id="subjectAreas">
+      <h1 class="translate">Topic</h1>
+      <ul></ul>
+    </div>
+    <div id="learningUnits">
+      <h1 class="translate">Learning unit</h1>
+      <ul></ul>
+    </div>
+    <p id="showAll" class="translate">Show all grade levels</p>
+  </div>
+
+  <div id="sessionInfo">
+    <h1 class="atLeastMiniTabletHeight translate"></h1>
+    <h2 class="atLeastMiniTabletHeight translate"></h2>
+    <div id="evaluationInfo" class="show">
+      <span id="labelProblemCounter" class="translate"></span> <span id="problemCounter"></span>
+      <span id="nmrOfProblems" class="translate"></span>
+      <span id="labelPercentageCorrect" class="translate"></span> <span id="percentageCorrect"></span>
+    </div>
+  </div>
+
+  <div id="renderBox"></div>
+
+  <div id="help-quit">
+      <button type="button" id="help" class="translate">Help</button>
+      <button type="button" id="quit" class="translate">Quit</button>
+  </div>
+
+<footer>
+   <hr />
+   <div id="left">
+     Copyright © 2013-2014 Gerd Wagner,
+       <a href="http://www.tu-cottbus.de/fakultaet1/de/internet-technologie">
+         Chair of Internet Technology
+       </a>, Brandenburg University of Technology, Germany.
+   </div>
+</footer>
+
+<div class="overlay">
+  <div id="dialog">
+    <form autocomplete="off">
+      <h1 id="dialog-title"></h1>
+      <div><button type="button" id="closeDialog"></button><button type="button" id="reset"></button></div>
+      <div class="label-field">
+        <label><select id="languageSelect"></select></label>
+      </div>
+      <div class="label-field">
+        <label><input type="text" id="firstNameInput" size=12 placeholder="?" /></label>
+      </div>
+      <div class="label-field">
+        <label><select id="gradeInput">
+        <option>none</option>
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+        <option>6</option>
+        <option>7</option>
+        </select></label>
+      </div>
+    </form>
+  </div>
+  <div id="exerciseHelpText"><p></p><button type="button" id="close" class="translate">Close</button></div>
+</div>
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-73312907-1', 'auto');
+          ga('send', 'pageview');
+        </script>
+</body>
+</html>

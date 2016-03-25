@@ -1,0 +1,22 @@
+{
+  "name": "openarithmetic",
+  "title": "Openarithmetic",
+  "description": "Openarithmetic",
+  "version": "0.0.1",
+  "homepage": "http://www.ari123.com",
+  "author": {
+    "name": "Prof. Gerd Wagner",
+    "url": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://bitbucket.org/gwagner57/openarithmetic"
+  },
+  "licenses": [
+    {
+      "type": "",
+      "url": ""
+    }
+  ],
+  "keywords": []
+}

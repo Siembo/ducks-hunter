@@ -1,0 +1,706 @@
+/* ==========================================================================
+   HTML5 Boilerplate Base styles: opinionated defaults
+   ========================================================================== */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+body {
+  font-size: 0.8em;
+  line-height: 1.2;
+}
+/*
+ * Remove text-shadow in selection highlight: h5bp.com/i
+ * These selection declarations have to be separate.
+ * Customize the background color to match your design.
+ */
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+/*
+ * A better looking default horizontal rule
+ */
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+/*
+ * Remove the gap between images and the bottom of their containers: h5bp.com/i/440
+ */
+img {
+    vertical-align: middle;
+}
+/*
+ * Remove default fieldset styles.
+ */
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+/*
+ * Allow only vertical resizing of textareas.
+ */
+textarea {
+    resize: vertical;
+}
+/* ==========================================================================
+   Main page styles
+   ========================================================================== */
+   
+p { text-overflow: ellipsis;}
+
+*[draggable="true"] {
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  cursor: move;
+  -khtml-user-drag: element;  /* for Safari 4- */
+}
+*.dragover { background: lightgreen;}
+
+.atLeastMiniTabletInline, .atLeastMiniTabletHeight, .atLeastTabletSizeScreen, .largeScreen {
+  display: none;
+}
+
+/*  layout for header
+--------------------------------------------------- */
+#logo  {
+  margin-top: 1%;
+  margin-left: 1%;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+#logo > img {
+  width: 20px;
+}
+#logo-subtitle  {
+  margin-top: 0.7em;
+  margin-left: 1%;
+  font-size: 1em;
+}
+#learnerDataForm {
+  position: absolute; 
+  top: 1%; right: 2%;
+}
+body.showRenderBox #logo, body.showRenderBox #learnerDataForm, body.showRenderBox #logo-subtitle {
+  display: none;
+}
+
+/*  Images
+--------------------------------------------------- */
+#ari {
+  position: absolute; bottom: 2%; left: 5%;
+  width: 5em;
+  height: 5em; 
+  background-repeat: no-repeat;
+  background-size: auto;
+  display: none;
+}
+body.showRenderBox #ari {
+  display: block;
+}
+#ari.smiling {
+  background-image: url('../media/img/ari.svg');
+}
+#ari.smiling:hover {
+  background-image: url('../media/img/ari_with_bubble.svg');
+}
+#ari.disappointed {
+  background-image: url('../media/img/ari_disappointed.svg');
+}
+#ari.worried {
+  background-image: url('../media/img/ari_worried.svg');
+}
+#ari.withBubble {
+  background-image: url('../media/img/ari_with_bubble.svg');
+}
+#ari.hide {
+  visibility: hidden;
+}
+img#tito {
+  display: block;
+  position: absolute; bottom: 10%; left: 40%;
+  visibility: hidden;
+}
+img#tito.show {
+  visibility: visible;
+}
+/* =======================================================================
+   Learning Unit Selection
+   ======================================================================= */
+#learningUnitSelection {
+  position: fixed; top: 12%; left: 0%;
+  width: 100%; 
+  height: 80%;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+body.demo #learningUnitSelection {
+  top: 45%; left: 2%;
+  height: 45%;
+}
+#learningUnitSelection h1 {
+  font-size: 1em;  /* decrease */
+  margin: 0px;
+}
+#learningUnitSelection p {
+  margin: 0px;
+  font-size: 1.2em;  /* increase */
+}
+#learningUnitSelection > div {
+  display: inline-block;
+  height: 70%;  /* for smart phones portrait*/
+  vertical-align: top;
+  font-size: 1.2em;  /* increase */
+  margin-right: 0.4em;
+}
+#learningUnitSelection ul {
+  height: 80%;
+  list-style-type: none;
+  padding-left: 0;
+  overflow: auto;
+}
+#learningUnitSelection ul > li {
+  line-height: 1;
+  margin-bottom: 0.4em;
+}
+#learningUnitSelection ul > li:hover, #showAll:hover {
+  background-color: hsl(0, 0%, 83%);
+  cursor: pointer;
+}
+#learningUnitSelection ul > li.selected {
+  background-color: hsl(0, 0%, 83%);
+}
+#grades {  
+  text-align: center;
+}
+#grades.hide {  
+  display: none;
+}
+#learningUnits {
+/*  width: 50%; */
+}
+#showAll {
+  /*position: absolute; bottom: 0%; left: 0%; */
+  color: grey;
+  font-size: smaller;
+}
+body.showRenderBox #learningUnitSelection {
+  display: none;
+}
+
+/* =======================================================================
+   Session Info
+========================================================================== */
+#sessionInfo {
+  position: absolute; top: 0%; left: 0%;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 0.8em;
+  font-size: 1.1em;
+  padding-top: 8px;
+  display: none;
+}
+body.showRenderBox #sessionInfo {
+  display: block;
+}
+#sessionInfo > h1 {
+  margin: 0 0;
+  font-size: 0.6em;
+  font-weight: normal;
+  color: grey;
+}
+#sessionInfo > h2 {
+  /* display: none; */
+  margin: 0 0;
+  font-size: 0.5em;
+  font-weight: normal;
+  color: grey;
+}
+body #evaluationInfo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+body.hideEvaluationInfo #evaluationInfo {
+  display: none;
+}
+#labelPercentageCorrect {
+  margin-left: 0.5em;
+}
+/*
+#percentageCorrect {
+  margin-left: 0.3em;
+}
+*/
+/* =======================================================================
+   Render box
+   ======================================================================= */
+#renderBox {
+  position: fixed; left: 0%; top: 12%;
+  width: 98%;
+  height: 65%;
+  font-size: 1.2em;
+  padding: 8px;
+  vertical-align: middle;
+  text-align: center;
+  display: none;
+  -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+}
+body.showRenderBox #renderBox {
+  display: block;
+}
+body.showRenderBox footer {
+  display: none;
+}
+/* ------------------------------------------------------------------
+ the following rules apply to several rendering forms, but not to all 
+-------------------------------------------------------------------- */
+.operator, .equalitySymbol, #rhs span { 
+  margin-left: 0.3em;
+  margin-right: 0.3em;
+}
+#expression {
+  display: inline-block;	
+  vertical-align: middle;
+}
+
+/* the rhs element contains the "=", the input element and the continue button  */ 
+#rhs {
+  display: inline-block;	
+  /* margin-top: 0.5em; */
+  vertical-align: middle;
+}
+
+.askedFor, #askedFor {
+  color: blue;
+  padding: 5px;
+}
+input[type=number] {
+  width: 1.5em;
+}
+#submitButton, #continueButton {
+  display: inline-block;
+  font-size: 1em;
+  margin-left: 1.5em;
+}
+.correct {
+  /* GW: outline rotation is not properly supported in FF in Aug-2012 */
+  /* outline: green solid thick; */
+  border: green solid thick;
+  -moz-transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out; 
+  -moz-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+}
+.false {
+  outline: red solid thick;
+}
+.given {
+  outline: yellow solid thick;
+}
+
+.possibleAnswers {
+  font-size: 1.4em;
+  margin-top: 0.8em;
+}
+.possibleAnswers > div {
+  display: inline-block;
+  margin-right: 0.5em;
+  padding: 5px;
+  border: solid;
+  border-radius: 6px;
+}
+.possibleAnswers > div:hover {
+  background-color: hsl(0, 0%, 83%);
+  cursor: pointer;
+}
+.possibleAnswers div.false {
+  outline: none;
+  color: lightpink;
+}
+
+div#help-quit {
+  position: absolute; right: 5%; bottom: 3%;
+  font-size: 1.5em;
+  display: none;
+  z-index: 99;
+}
+button#help {
+  visibility: hidden;
+  margin-right: 1em;
+}
+
+/* =======================================================================
+   Fractions
+   ====================================================================== */
+
+.fraction {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+}
+.fraction input {
+  margin: 0 auto;
+}
+.fraction hr {
+  margin: 1px auto;
+  border-width: 0.08em 0 0;
+  border-color: black;
+}
+
+
+/* ==========================================================================
+   HTML5 Boilerplate Helper classes
+   ========================================================================== */
+/*
+ * Image replacement
+ */
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    /* IE 6/7 fallback */
+    *text-indent: -9999px;
+}
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+/*
+ * Hide from both screenreaders and browsers: h5bp.com/u
+ */
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+/*
+ * Hide only visually, but have it available for screenreaders: h5bp.com/v
+ */
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+/*
+ * Extends the .visuallyhidden class to allow the element to be focusable
+ * when navigated to via the keyboard: h5bp.com/p
+ */
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+/*
+ * Hide visually and from screenreaders, but maintain layout
+ */
+.invisible {
+    visibility: hidden;
+}
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+.clearfix:after {
+    clear: both;
+}
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.clearfix {
+    *zoom: 1;
+}
+
+/* ============================================================================================
+   The following Media Queries override the primary ('mobile first') smartphone portrait styles
+   ========================================================================================== */
+
+/* ------------------------------------------------------------------
+   Style adjustments for SMARTPHONE-size viewports 
+   Apple iPhone        320 x 480|568
+   Samsung Galaxy  320|360 x 533|640
+   Nexus 4             384 x 598
+   HTC 4G              540 x 920
+   ----------------------------------------------------------------- */
+@media only screen and (min-width: 480) {  /* >= Smartphone Landscape */
+  #ari {
+    left: 3%;
+  }
+  #dialog {
+    font-size: 1.2em;
+  }
+  #sessionInfo {
+    top: 3%;
+    font-size: 1.4em;
+  }
+  #learningUnitSelection h1 {
+    font-size: 1.1em;  /* decrease */
+  }
+  #learningUnitSelection > div {
+    font-size: 1.3em;  /* increase */
+  }
+  #learningUnits {  
+    width: 50%;
+  }
+  .possibleAnswers {
+    font-size: 1.4em;
+  }
+  body.hideEvaluationInfo #renderBox {
+    top: 10%;
+  }
+}
+@media only screen and (min-width: 361px) and (max-width: 480px) { 
+}
+
+/* ----------------------------------------------------------------------
+   Style adjustments for viewports with a MINI-TABLET-Portrait-like width 
+   Apple iPad mini       768 x 1024
+   Nexus 7               603 x 966
+   Samsung Galaxy Tab 7  600 x 1024   
+   -------------------------------------------------------------------- */
+@media only screen and (min-width: 600px) { 
+  .atLeastMiniTabletInline {
+    display: inline;
+  }
+  #logo > img {
+    width: 30px;
+  }
+  #renderBox {
+	font-size: 1.5em;
+  }
+}
+/* ------------------------------------------------------------------
+   Style adjustments for MINI-TABLET-size viewports 
+   ----------------------------------------------------------------- */
+@media only screen and (min-width: 600px) and (min-height: 600px) { 
+  .atLeastMiniTabletBlock {
+    display: block;
+  }
+  .atLeastMiniTabletHeight {
+    display: block;
+  }
+  #learningUnitSelection > div {
+    height: 90%;
+  }
+  #ari {
+    width: 8em;
+    height: 8em; 
+  }
+}
+/* ------------------------------------------------------------------
+   Style adjustments for viewports with a TABLET-Portrait-like width 
+   Apple iPad            768 x 1024
+   Samsung Galaxy Tab 10 800 x 1280
+   Acer Iconia Tabs  648|800 x 1024|1280
+   LG Optimus Pad        768 x 1280
+   Motorola Xoom         800 x 1280
+   ----------------------------------------------------------------- */
+@media only screen and (min-width: 768px) { 
+
+  #renderBox {
+	font-size: 1.8em;
+  }
+  #learningUnitSelection h1 {
+    font-size: 1.2em;  /* decrease */
+  }
+  #learningUnitSelection > div {
+    font-size: 1.4em;  /* increase */
+  }
+  #sessionInfo {
+    font-size: 1.7em;
+  }
+  .possibleAnswers {
+    font-size: 1.7em;
+  }
+}
+/* ------------------------------------------------------------------
+   Style adjustments for TABLET-size viewports 
+   ----------------------------------------------------------------- */
+@media only screen and (min-width: 768px) and (min-height: 650px) {
+	
+  /* Show elements that require at least tablet-size viewports */
+  .atLeastTabletSizeScreen { 
+    display: block;
+  }
+  body.demo #learningUnitSelection {
+    top: 50%; left: 15%;
+  }
+  #renderBox {
+    top: 15%; 
+    height: 70%;
+  }
+  #showAll {
+    bottom: 10%;
+  }
+  body.showRenderBox #ari {
+    bottom: 4%; ;
+  }
+  div#help-quit {
+    bottom: 5%;
+  }
+}
+
+/* ------------------------------------------------------------------
+   Style adjustments for LARGE viewports 
+   ----------------------------------------------------------------- */
+@media only screen and (min-width: 1281px) {
+
+  .largeScreen {
+    display: block;
+  }
+  #sessionInfo {
+    top: 5%;
+	font-size: 2em;
+  }
+  #renderBox {
+    top: 25%; left: 15%; 
+    width: 70%;
+    height: 60%;
+    font-size: 2em;
+  }
+  body.hideEvaluationInfo #renderBox {
+    top: 20%;
+  }
+  #learningUnitSelection {
+    left: 20%;
+    width: 80%; 
+  }
+  #learningUnitSelection h1 {
+    font-size: 1.4em;  /* decrease */
+  }
+  #learningUnitSelection>div {
+    font-size: 1.6em;  /* increase */
+  }
+  #subjectAreas, #learningUnits {  
+    margin-left: 2em;
+  }
+  #ari {
+    width: 10em;
+    height: 10em; 
+  }
+  .possibleAnswers {
+    font-size: 2em;
+  }
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid required HTTP connection: h5bp.com/r
+   ========================================================================== */
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
