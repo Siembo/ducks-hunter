@@ -1,0 +1,33 @@
+/*  base styles for all pages
+------------------------------------------- */
+body {
+  font-family: helvetica, arial, sans-serif; 
+  padding: 8px;
+}
+table { border-collapse: collapse; }  
+table, td, th { border: 1px solid; }  
+td, th { padding: 3px; }
+
+footer {
+  width: 98%;
+  height: 4em;
+  font-size: 1em;
+}
+footer #left {
+  position: absolute; left: 1%;
+  font-size: 0.9em;
+}
+footer #right {
+  position: absolute; right: 1%;
+}
+
+/* ------------------------------------------------------------------
+   Style adjustments for TABLET-size viewports 
+   ----------------------------------------------------------------- */
+@media only screen and (min-width: 768px) and (min-height: 650px) {
+	
+  footer {
+    position: fixed; bottom: 0%; left: 1%;
+  }
+}
+

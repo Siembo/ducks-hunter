@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.1"
+   width="39"
+   height="52.25"
+   viewBox="0 0 39 52.25"
+   id="Layer_1"
+   xml:space="preserve"
+   style="overflow:visible">
+   <title>green alien smiley in bad mood</title>
+   <metadata><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title>green alien smiley in bad mood</dc:title>
+		 <dc:creator>Mariana Ruiz</dc:creator>
+		 <dc:date>19 August 2011</dc:date><dc:source>http://commons.wikimedia.org/wiki/File:Smiley_green_alien_indiferent.svg</dc:source>
+		 <dc:description>green alien smiley in bad mood</dc:description>
+		 <cc:license
+         rdf:resource="http://creativecommons.org/licenses/publicdomain/" /></cc:Work>
+	<cc:License
+       rdf:about="http://creativecommons.org/licenses/publicdomain/"><cc:permits
+         rdf:resource="http://creativecommons.org/ns#Reproduction" /><cc:permits
+         rdf:resource="http://creativecommons.org/ns#Distribution" /><cc:permits
+         rdf:resource="http://creativecommons.org/ns#DerivativeWorks" /></cc:License></rdf:RDF>
+</metadata>
+<defs
+   id="defs63" />
+<ellipse
+   cx="19.478001"
+   cy="48.743999"
+   rx="18.429001"
+   ry="2.184"
+   id="ellipse3"
+   style="opacity:0.75;fill:#bdbec0" />
+<path
+   d="m 25.362,12.876 c 7.242,2.291 12.492,9.065 12.492,17.066 0,9.884 -8.013,17.896 -17.896,17.896 -9.883,0 -17.896,-8.011 -17.896,-17.895 0,-8.283 5.627,-15.253 13.268,-17.292 l 0.103,-0.392 C 14.979,11.671 13.813,8.673 13.62,8.677 11.547,8.743 9.813,7.116 9.747,5.044 9.682,2.97 11.309,1.237 13.38,1.171 c 2.073,-0.066 3.809,1.561 3.873,3.635 0.04,1.251 -0.539,2.38 -1.458,3.092 -0.134,0.104 1.005,3.275 1.129,3.986 l 0.652,0.318 c 0.78,-0.105 1.575,-0.158 2.382,-0.158 1.094,0 2.164,0.099 3.203,0.287 l 0.686,-0.287 C 23.919,11.337 24.827,8.083 24.688,7.986 23.74,7.333 23.103,6.253 23.063,5.012 22.998,2.939 24.625,1.205 26.697,1.139 28.77,1.073 30.504,2.7 30.57,4.772 c 0.066,2.074 -1.561,3.807 -3.634,3.873 -0.198,0.006 -1.317,3.1 -1.757,3.771 l 0.183,0.46 z"
+   id="path5"
+   style="fill:#8cc641;stroke:#046132;stroke-width:0.4831" />
+<radialGradient
+   cx="24.3291"
+   cy="74.675797"
+   r="23.358601"
+   id="XMLID_7_"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(1,0,0,-1,0.0376,99.4346)">
+	<stop
+   id="stop8"
+   style="stop-color:#fcee23;stop-opacity:1"
+   offset="0" />
+	<stop
+   id="stop10"
+   style="stop-color:#076e3a;stop-opacity:1"
+   offset="1" />
+</radialGradient>
+<circle
+   cx="19.877001"
+   cy="30.021999"
+   r="17.337999"
+   id="circle12"
+   style="fill:url(#XMLID_7_);stroke:#2b9145;stroke-width:0.4831" />
+<radialGradient
+   cx="2.5967"
+   cy="88.834999"
+   r="4.2556"
+   id="XMLID_8_"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(0.9995,-0.0318,-0.0318,-0.9995,14.4979,92.8334)">
+	<stop
+   id="stop15"
+   style="stop-color:#fcee23;stop-opacity:1"
+   offset="0" />
+	<stop
+   id="stop17"
+   style="stop-color:#076e3a;stop-opacity:1"
+   offset="1" />
+</radialGradient>
+<circle
+   cx="13.482"
+   cy="4.9419999"
+   r="3.1589999"
+   id="circle19"
+   style="opacity:0.5;fill:url(#XMLID_8_)" />
+<radialGradient
+   cx="15.9082"
+   cy="88.441399"
+   r="4.2550998"
+   id="XMLID_9_"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(0.9995,-0.0318,-0.0318,-0.9995,14.4979,92.8334)">
+	<stop
+   id="stop22"
+   style="stop-color:#fcee23;stop-opacity:1"
+   offset="0" />
+	<stop
+   id="stop24"
+   style="stop-color:#076e3a;stop-opacity:1"
+   offset="1" />
+</radialGradient>
+<circle
+   cx="26.799"
+   cy="4.9120002"
+   r="3.1589999"
+   id="circle26"
+   style="opacity:0.41000001;fill:url(#XMLID_9_)" />
+<radialGradient
+   cx="22.02"
+   cy="59.939499"
+   r="5.8824"
+   id="XMLID_10_"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(2.1743,-0.1672,-0.098,-1.2744,-25.1392,116.5212)">
+	<stop
+   id="stop29"
+   style="stop-color:#20341c;stop-opacity:1"
+   offset="0" />
+	<stop
+   id="stop31"
+   style="stop-color:#076e3a;stop-opacity:1"
+   offset="1" />
+</radialGradient>
+<path
+   d="m 22.109,32.108 c 3.558,0.043 5.881,0.709 8.366,3.454 -4.227,-4.901 -14.486,-2.623 -18.949,0.663 1.485,-3.386 7.278,-4.119 10.465,-4.118 0.039,0 0.077,0 0.118,10e-4 z"
+   id="path33"
+   style="fill:url(#XMLID_10_);stroke:#20341c;stroke-width:0.52499998" />
+<path
+   d="m 18.208,38.627 c 1.066,-1.728 2.702,-1.622 3.713,-0.532"
+   id="path35"
+   style="fill:none;stroke:#20341c;stroke-width:0.52710003" />
+<g
+   id="g37">
+	
+		<radialGradient
+   cx="24.264601"
+   cy="75.125"
+   r="10.9399"
+   id="XMLID_11_"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(-0.9437,-0.3308,-0.3308,0.9437,66.0275,-50.6407)">
+		<stop
+   id="stop40"
+   style="stop-color:#57585a;stop-opacity:1"
+   offset="0" />
+		<stop
+   id="stop42"
+   style="stop-color:#010101;stop-opacity:1"
+   offset="1" />
+	</radialGradient>
+	<path
+   d="m 24.533,21.505 c -0.301,-0.242 -3.231,-3.518 -1.628,-3.631 0.338,-0.023 0.815,0.516 1.118,0.637 0.863,0.345 1.879,0.432 2.794,0.55 0.992,0.128 1.906,0.09 2.907,0.048 0.793,-0.033 2.076,-0.506 2.733,-0.006 0.217,2.759 -2.249,3.623 -4.528,3.372 -0.96,-0.105 -2.662,-0.379 -3.396,-0.97 z"
+   id="path44"
+   style="fill:url(#XMLID_11_)" />
+	<path
+   d="m 31.053,20.67 c -0.396,0.126 -2.862,0.493 -1.835,1.068 0.396,0.222 0.871,-0.009 1.205,-0.248 0.16,-0.114 0.567,-0.8 0.63,-0.82 z"
+   id="path46"
+   style="fill:#646466" />
+</g>
+<g
+   id="g48">
+	
+		<radialGradient
+   cx="7.1947999"
+   cy="75.494102"
+   r="10.9399"
+   id="XMLID_12_"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(0.9629,-0.27,0.27,0.9629,-2.1441,-57.653)">
+		<stop
+   id="stop51"
+   style="stop-color:#57585a;stop-opacity:1"
+   offset="0" />
+		<stop
+   id="stop53"
+   style="stop-color:#010101;stop-opacity:1"
+   offset="1" />
+	</radialGradient>
+	<path
+   d="m 18.331,21.957 c 0.316,-0.223 3.449,-3.306 1.857,-3.521 -0.336,-0.045 -0.846,0.463 -1.157,0.565 -0.884,0.289 -1.902,0.311 -2.824,0.37 -0.998,0.064 -1.908,-0.032 -2.904,-0.138 -0.789,-0.083 -2.039,-0.637 -2.727,-0.18 -0.392,2.74 2.014,3.758 4.304,3.654 0.964,-0.043 2.68,-0.207 3.451,-0.75 z"
+   id="path55"
+   style="fill:url(#XMLID_12_)" />
+	<path
+   d="m 11.876,20.708 c 0.387,0.15 2.825,0.674 1.763,1.183 -0.409,0.197 -0.868,-0.064 -1.186,-0.324 -0.153,-0.125 -0.515,-0.836 -0.577,-0.859 z"
+   id="path57"
+   style="fill:#646466" />
+</g>
+<path
+   d="m 19.933,19.259 c 0.184,0.126 0.397,0.183 0.681,0.083 0.262,-0.093 0.393,-0.37 0.615,-0.529 0.573,-0.41 0.892,0.496 1.482,0.448 0.613,-0.049 0.93,-0.765 1.396,-1.073 0.726,-0.48 1.594,-0.762 2.411,-1.044 0.083,-0.443 -0.479,-0.641 -0.831,-0.61 -0.881,0.078 -1.808,1.129 -2.434,1.677 -0.504,0.441 -0.748,0.272 -0.933,-0.299 -0.205,-0.628 -0.232,-1.315 -0.384,-1.965 -0.097,-0.415 -0.036,-0.941 -0.203,-1.324 -0.187,0.488 -0.375,3.776 -1.042,3.095 -0.358,-0.365 -0.214,-1.334 -0.384,-1.802 -0.074,0.574 0.111,1.847 -0.382,2.271 -0.635,0.55 -1.724,-1.259 -2.183,-1.521 -1.311,-0.75 -1.111,0.474 -1.688,0.463 0.952,0.017 1.313,0.087 2.053,0.559 0.408,0.26 0.86,0.617 1.21,0.952 0.208,0.199 0.389,0.462 0.616,0.619 z"
+   id="path59"
+   style="fill:#19542a" />
+</svg>

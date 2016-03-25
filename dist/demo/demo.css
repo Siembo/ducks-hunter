@@ -1,0 +1,60 @@
+#oer-logo { 
+  display: none;
+}
+  #demo {  /* Demo */
+    position: absolute; bottom: 20%; left: 10%; 
+    font-size: 7em;
+    color: whitesmoke;
+    margin: 0;
+    -moz-transform: rotate(-60deg);
+    -webkit-transform: rotate(-60deg);
+    -o-transform: rotate(-60deg);
+    -ms-transform: rotate(-60deg);  
+  }
+#demoDescription {
+  position: absolute; top: 8%; left: 0%; 
+  padding: 5px;
+  color: grey;
+}
+#demoDescription > h1 {
+  font-size: 2em;
+  margin-top: 0;
+  margin-bottom: 0.3em;
+}
+#demoDescription > p {
+  font-size: 1em;
+}
+body.showRenderBox #demoDescription {
+  display: none;
+}
+
+/* Style adjustments for Landscape */
+@media only screen and (orientation: landscape) { 
+  #demo {  /* Demo */
+    -moz-transform: rotate(-30deg);
+    -webkit-transform: rotate(-30deg);
+    -o-transform: rotate(-30deg);
+    -ms-transform: rotate(-30deg);  
+  }
+}
+/* Style adjustments for MINI-TABLET-size or larger viewports */
+@media only screen and (min-width: 600px) and (min-height: 600px) { 
+  #oer-logo { 
+    position: absolute; top: 20%; left: 2%;
+    display: block;
+  }
+  #demo {  /* Demo */
+    bottom: 30%; left: 15%; 
+    font-size: 15em;
+  }
+  #demoDescription {
+    position: absolute; top: 10%; left: 15%; 
+  }
+  #demoDescription > h1 {
+    font-size: 3em;
+  }
+  #demoDescription > p {
+    font-size: 1.6em;
+    width: 80%;
+  }
+}

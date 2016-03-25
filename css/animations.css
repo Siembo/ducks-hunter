@@ -1,0 +1,220 @@
+/* Rotate 360deg onmouseover and out */
+.rotate360andBack { 
+  -moz-transition: all 0.8s ease-in-out;
+  -webkit-transition: all 0.8s ease-in-out;
+  -o-transition: all 0.8s ease-in-out;
+  -ms-transition: all 0.8s ease-in-out;
+}
+
+.rotate360andBack:hover {
+  -moz-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+}
+
+.rotate360 {
+-moz-transition: all 1s ease-in-out;
+-webkit-transition: all 1s ease-in-out;
+-o-transition: all 1s ease-in-out;
+-ms-transition: all 1s ease-in-out;
+-moz-transform: rotate(360deg);
+-webkit-transform: rotate(360deg);
+-o-transform: rotate(360deg);
+-ms-transform: rotate(360deg);
+}
+
+/* Fading in an arbitrary element. */
+.fadeIn {
+	-moz-animation-timing-function: ease-in-out;
+	-moz-animation-duration: 3s;
+	-moz-animation-name: fadeIn;
+	-webkit-animation-timing-function: ease-in-out;
+	-webkit-animation-duration: 3s;
+	-webkit-animation-name: fadeIn;
+	-o-animation-timing-function: ease-in-out;
+	-o-animation-duration: 3s;
+	-o-animation-name: fadeIn;
+	-ms-animation-timing-function: ease-in-out;
+	-ms-animation-duration: 3s;
+	-ms-animation-name: fadeIn;
+	animation-timing-function: ease-in-out;
+	animation-duration: 3s;
+	animation-name: fadeIn;
+}
+@-moz-keyframes fadeIn {
+	0% {opacity:0;}
+	100% {opacity:1;}
+}
+@-webkit-keyframes fadeIn {
+	0% {opacity:0;}
+	100% {opacity:1;}
+}
+@-o-keyframes fadeIn {
+	0% {opacity:0;}
+	100% {opacity:1;}
+}
+@-ms-keyframes fadeIn {
+	0% {opacity:0;}
+	100% {opacity:1;}
+}
+@keyframes fadeIn {
+	0% {opacity:0;}
+	100% {opacity:1;}
+}
+
+/* Zooming in an arbitrary element. Zoom in means zoom from behind to front. */
+.zoomIn {
+	-moz-animation-timing-function: ease-in-out;
+	-moz-animation-duration: 3s;
+	-moz-animation-name: zoomIn;
+	-webkit-animation-timing-function: ease-in-out;
+	-webkit-animation-duration: 3s;
+	-webkit-animation-name: zoomIn;
+	-o-animation-timing-function: ease-in-out;
+	-o-animation-duration: 3s;
+	-o-animation-name: zoomIn;
+	-ms-animation-timing-function: ease-in-out;
+	-ms-animation-duration: 3s;
+	-ms-animation-name: zoomIn;
+	animation-timing-function: ease-in-out;
+	animation-duration: 3s;
+	animation-name: zoomIn;
+}
+@-moz-keyframes zoomIn {
+	0% {-moz-transform:scale(0.0)}
+	100% {-moz-transform:scale(1.0)}
+}
+@-webkit-keyframes zoomIn {
+	0% {-webkit-transform:scale(0.0)}
+	100% {-webkit-transform:scale(1.0)}
+}
+@-o-keyframes zoomIn {
+	0% {-o-transform:scale(0.0)}
+	100% {-o-transform:scale(1.0)}
+}
+@-ms-keyframes zoomIn {
+	0% {-ms-transform:scale(0.0)}
+	100% {-ms-transform:scale(1.0)}
+}
+@keyframes zoomIn {
+	0% {transform:scale(0.0)}
+	100% {transform:scale(1.0)}
+}
+
+/* Zooming out an arbitrary element. Zoom out means zoom from front to behind.*/
+.zoomOut {
+	-moz-animation-timing-function: ease-in-out;
+	-moz-animation-duration: 3s;
+	-moz-animation-name: zoomOut;
+	-webkit-animation-timing-function: ease-in-out;
+	-webkit-animation-duration: 3s;
+	-webkit-animation-name: zoomOut;
+	-o-animation-timing-function: ease-in-out;
+	-o-animation-duration: 3s;
+	-o-animation-name: zoomOut;
+	-ms-animation-timing-function: ease-in-out;
+	-ms-animation-duration: 3s;
+	-ms-animation-name: zoomOut;
+	animation-timing-function: ease-in-out;
+	animation-duration: 3s;
+	animation-name: zoomOut;
+}
+@-moz-keyframes zoomOut {
+	0% {-moz-transform:scale(10.0)}
+	100% {-moz-transform:scale(1.0)}
+}
+@-webkit-keyframes zoomOut {
+	0% {-webkit-transform:scale(10.0)}
+	100% {-webkit-transform:scale(1.0)}
+}
+@-o-keyframes zoomOut {
+	0% {-o-transform:scale(10.0)}
+	100% {-o-transform:scale(1.0)}
+}
+@-ms-keyframes zoomOut {
+	0% {-ms-transform:scale(10.0)}
+	100% {-ms-transform:scale(1.0)}
+}
+@keyframes zoomOut {
+	0% {transform:scale(10.0)}
+	100% {transform:scale(1.0)}
+}
+
+/* Fading in verticaly an arbitrary element. */
+.fadeVertical {
+	-moz-animation-timing-function: ease-in-out;
+	-moz-animation-duration: 3s;
+	-moz-animation-name: fadeVertical;
+	-webkit-animation-timing-function: ease-in-out;
+	-webkit-animation-duration: 3s;
+	-webkit-animation-name: fadeVertical;
+	-o-animation-timing-function: ease-in-out;
+	-o-animation-duration: 3s;
+	-o-animation-name: fadeVertical;
+	-ms-animation-timing-function: ease-in-out;
+	-ms-animation-duration: 3s;
+	-ms-animation-name: fadeVertical;
+	animation-timing-function: ease-in-out;
+	animation-duration: 3s;
+	animation-name: fadeVertical;
+}
+@-moz-keyframes fadeVertical {
+	0% {-moz-transform:scale(1.0, 0.0)}
+	100% {-moz-transform:scale(1.0, 1.0)}
+}
+@-webkit-keyframes fadeVertical {
+	0% {-webkit-transform:scale(1.0, 0.0)}
+	100% {-webkit-transform:scale(1.0, 1.0)}
+}
+@-o-keyframes fadeVertical {
+	0% {-o-transform:scale(1.0, 0.0)}
+	100% {-o-transform:scale(1.0, 1.0)}
+}
+@-ms-keyframes fadeVertical {
+	0% {-ms-transform:scale(1.0, 0.0)}
+	100% {-ms-transform:scale(1.0, 1.0)}
+}
+@keyframes fadeVertical {
+	0% {transform:scale(1.0, 0.0)}
+	100% {transform:scale(1.0, 1.0)}
+}
+
+/* Fading in horizontaly an arbitrary element. */
+.fadeHorizontal {
+	-moz-animation-timing-function: ease-in-out;
+	-moz-animation-duration: 3s;
+	-moz-animation-name: fadeHorizontal;
+	-webkit-animation-timing-function: ease-in-out;
+	-webkit-animation-duration: 3s;
+	-webkit-animation-name: fadeHorizontal;
+	-o-animation-timing-function: ease-in-out;
+	-o-animation-duration: 3s;
+	-o-animation-name: fadeHorizontal;
+	-ms-animation-timing-function: ease-in-out;
+	-ms-animation-duration: 3s;
+	-ms-animation-name: fadeHorizontal;
+	animation-timing-function: ease-in-out;
+	animation-duration: 3s;
+	animation-name: fadeHorizontal;
+}
+@-moz-keyframes fadeHorizontal {
+	0% {-moz-transform:scale(0.0, 1.0)}
+	100% {-moz-transform:scale(1.0, 1.0)}
+}
+@-webkit-keyframes fadeHorizontal {
+	0% {-webkit-transform:scale(0.0, 1.0)}
+	100% {-webkit-transform:scale(1.0, 1.0)}
+}
+@-o-keyframes fadeHorizontal {
+	0% {-o-transform:scale(0.0, 1.0)}
+	100% {-o-transform:scale(1.0, 1.0)}
+}
+@-ms-keyframes fadeHorizontal {
+	0% {-ms-transform:scale(0.0, 1.0)}
+	100% {-ms-transform:scale(1.0, 1.0)}
+}
+@keyframes fadeHorizontal {
+	0% {transform:scale(0.0, 1.0)}
+	100% {transform:scale(1.0, 1.0)}
+}

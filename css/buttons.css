@@ -1,0 +1,219 @@
+﻿/*
+Simple CSS3 Buttons (Gerd Wagner, 20110211)
+Derived from BonBon Buttons 1.1 by simurai.com
+
+Usage:
+	Default button: 			<button>Label</button>
+	More fancy with icon: 		<button class="orange" data-icon="★">Label</button>
+	
+The following additional class names are supported:
+	For color: 		orange, blue, green, transparent
+	For size: 		xs, xl
+	For shape: 		round, oval, brackets
+	For icon only: 	icon
+*/
+
+button,input[type='submit'] {
+
+/* text */
+	text-decoration: 		none;
+	font-weight: 			bold;
+	text-shadow: 			rgba(255,255,255,.5) 0 1px 0;
+	-webkit-user-select: 	none;
+	-moz-user-select: 		none;
+	-ms-user-select: 		none; 
+	
+/* layout */
+	padding: .3em .4em .2em .4em;
+	margin-left: .5em;
+	display: inline-block;
+/*	position: relative; */
+	border-radius: 8px;
+	
+/* effects */
+	border-left: none;
+	border-right: none;
+	border-top: 		1px solid rgba(255,255,255,0.8);
+	border-bottom: 		1px solid rgba(0,0,0,0.1);
+	background-image: radial-gradient( at top, rgba(255,255,255,0), rgba(255,255,255,0.7));
+	background-image: -webkit-radial-gradient( top, rgba(255,255,255,0) 0%, rgba(255,255,255,0.7) 100%);
+	
+	-webkit-transition: background .2s ease-in-out;
+	-moz-transition: 	background .2s ease-in-out;
+	-o-transition: 		background .2s ease-in-out;
+	-ms-transition: 	background .2s ease-in-out;
+	
+/* color */
+	color: 				hsl(0, 0%, 40%) !important;
+	background-color: 	hsl(0, 0%, 75%);
+	box-shadow:		 	inset rgba(255,254,255,0.6) 0 0.3em .3em, inset rgba(0,0,0,0.15) 0 -0.1em .3em, /* inner shadow */ 
+						hsl(0, 0%, 60%) 0 .1em 3px, hsl(0, 0%, 45%) 0 .3em 1px, /* color border */
+						rgba(0,0,0,0.2) 0 .5em 5px; /* drop shadow */
+	/* required for Android browser */
+	-webkit-box-shadow: inset rgba(255,254,255,0.6) 0 0.3em .3em, inset rgba(0,0,0,0.15) 0 -0.1em .3em, /* inner shadow */ 
+						hsl(0, 0%, 60%) 0 .1em 3px, hsl(0, 0%, 45%) 0 .3em 1px, /* color border */
+						rgba(0,0,0,0.2) 0 .5em 5px; /* drop shadow */
+}
+
+/* -------------- icon -------------- */
+button[data-icon]:before {
+	font: 			1.2em/0 'Pictos', sans-serif;
+	content: 		attr(data-icon); /* gets the icon value from the custom data attribute and puts it in front of the button label */
+	margin-right: 	0.4em;
+
+}
+/* icon only */
+.icon {
+	font-weight: normal;
+	font-style: normal;
+	text-indent: -999em;
+}
+.icon:before { 
+	margin-right: 	0;
+	display: 		block;
+	height: 		0;
+	text-indent: 	0;	
+}
+
+/* -------------- colours -------------- */
+
+button.orange {
+	color: 				hsl(39, 100%, 30%) !important;
+	background-color: 	hsl(39, 100%, 50%);
+	box-shadow:		 	inset rgba(255,254,255,0.6) 0 0.3em .3em, inset rgba(0,0,0,0.15) 0 -0.1em .3em, /* inner shadow */ 
+							hsl(39, 100%, 40%) 0 .1em 3px, hsl(39, 100%, 30%) 0 .3em 1px, /* color border */
+							rgba(0,0,0,0.2) 0 .5em 5px; /* drop shadow */
+	-webkit-box-shadow: inset rgba(255,254,255,0.6) 0 0.3em .3em, inset rgba(0,0,0,0.15) 0 -0.1em .3em, /* inner shadow */ 
+							hsl(39, 100%, 40%) 0 .1em 3px, hsl(39, 100%, 30%) 0 .3em 1px, /* color border */
+							rgba(0,0,0,0.2) 0 .5em 5px; /* drop shadow */
+}
+button.orange:hover { 	background-color: hsl(39, 100%, 65%); }
+
+button.blue {
+	color: 				hsl(208, 50%, 40%) !important;
+	background-color: 	hsl(208, 100%, 75%);
+	box-shadow: 		inset rgba(255,254,255,0.6) 0 0.3em .3em, inset rgba(0,0,0,0.15) 0 -0.1em .3em, /* inner shadow */ 
+							hsl(208, 50%, 55%) 0 .1em 3px, hsl(208, 50%, 40%) 0 .3em 1px, /* color border */
+							rgba(0,0,0,0.2) 0 .5em 5px;	/* drop shadow */
+	-webkit-box-shadow: inset rgba(255,254,255,0.6) 0 0.3em .3em, inset rgba(0,0,0,0.15) 0 -0.1em .3em, /* inner shadow */ 
+							hsl(208, 50%, 55%) 0 .1em 3px, hsl(208, 50%, 40%) 0 .3em 1px, /* color border */
+							rgba(0,0,0,0.2) 0 .5em 5px;	/* drop shadow */
+}
+button.blue:hover { 	background-color: hsl(208, 100%, 83%); }
+
+/** Defined for Shaded parts of Square and Circle as Fractions */
+
+button.myGreen{ background-color: hsl(90, 100%, 50%);}
+button.myGreen:hover { 	background-color: hsl(90, 100%, 50%);}
+button.myRed{  background-color: hsl(0, 100%, 50%);}
+button.myRed:hover { background-color: hsl(0, 100%, 50%);}
+
+/**----------------------------------------------------------------------------*/
+
+button.green {
+	color: 				hsl(88, 70%, 30%) !important;
+	background-color: 	hsl(88, 70%, 60%);
+	box-shadow:		 	inset rgba(255,254,255,0.6) 0 0.3em .3em, inset rgba(0,0,0,0.15) 0 -0.1em .3em, /* inner shadow */ 
+							hsl(88, 70%, 40%) 0 .1em 3px, hsl(88, 70%, 30%) 0 .3em 1px, /* color border */
+							rgba(0,0,0,0.2) 0 .5em 5px; /* drop shadow */
+	-webkit-box-shadow: inset rgba(255,254,255,0.6) 0 0.3em .3em, inset rgba(0,0,0,0.15) 0 -0.1em .3em, /* inner shadow */ 
+							hsl(88, 70%, 40%) 0 .1em 3px, hsl(88, 70%, 30%) 0 .3em 1px, /* color border */
+							rgba(0,0,0,0.2) 0 .5em 5px; /* drop shadow */
+}
+button.green:hover { 	background-color: hsl(88, 70%, 75%); }
+
+button.transparent {
+	color: 	rgba(0,0,0,0.5) !important;
+}
+button.transparent, button.transparent:hover, button.transparent:active {
+	background-color: transparent;
+	background-image: none;
+}
+button.transparent:hover {
+	opacity: .9;
+}
+
+/* -------------- States -------------- */
+
+button:hover, input[type='submit']:hover {
+	cursor: pointer;
+	background-color: hsl(0, 0%, 83%);
+}
+
+button:active, input[type='submit']:active {
+/*
+	background-image: radial-gradient( circle closest-side, rgba(255,255,255,0));
+	background-image: -webkit-radial-gradient(center 45deg, circle closest-side, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 100%);
+
+	box-shadow: 		inset rgba(255,255,255,0.6) 0 0.3em .3em, inset rgba(0,0,0,0.2) 0 -0.1em .3em, /* inner shadow */ 
+							rgba(0,0,0,0.4) 0 .1em 1px, /* border */
+							rgba(0,0,0,0.2) 0 .2em 6px; /* drop shadow */
+	-webkit-box-shadow: inset rgba(255,255,255,0.6) 0 0.3em .3em, inset rgba(0,0,0,0.2) 0 -0.1em .3em, /* inner shadow */ 
+							rgba(0,0,0,0.4) 0 .1em 1px, /* border */
+							rgba(0,0,0,0.2) 0 .2em 6px; /* drop shadow */
+
+	-webkit-transform: 	translateY(.2em);
+	-moz-transform: 	translateY(.2em);
+	-ms-transform: 		translateY(.2em);
+}
+
+button:focus, input[type='submit']:focus {
+	outline: none;
+	color: rgba(254,255,255,0.9) !important;
+	text-shadow: rgba(0,0,0,0.2) 0 1px 2px;
+}
+
+button[disabled], button[disabled]:hover {
+	opacity: 			.5;
+	cursor: 			default;
+	color: 				rgba(0,0,0,0.2) !important;
+	text-shadow: 		none !important;
+	background-color: 	rgba(0,0,0,0.05);
+	background-image: 	none;
+	border-top: 		none;
+	box-shadow: 		inset rgba(255,254,255,0.4) 0 0.3em .3em, inset rgba(0,0,0,0.1) 0 -0.1em .3em, /* inner shadow */ 
+							rgba(0,0,0,0.3) 0 .1em 1px, /* border */
+							rgba(0,0,0,0.2) 0 .2em 6px; /* drop shadow */
+	-webkit-box-shadow: inset rgba(255,254,255,0.4) 0 0.3em .3em, inset rgba(0,0,0,0.1) 0 -0.1em .3em, /* inner shadow */ 
+							rgba(0,0,0,0.3) 0 .1em 1px, /* border */
+							rgba(0,0,0,0.2) 0 .2em 6px; /* drop shadow */
+
+	-webkit-transform: 	translateY(5px);
+	-moz-transform: 	translateY(5px);
+	-ms-transform: 		translateY(5px);
+}
+button[disabled]:after
+ { opacity: .6; }
+
+
+/* -------------- Sizes -------------- */
+.xs { font-size: 16px; }
+.xl { font-size: 32px; }
+
+
+/* -------------- Shapes -------------- */
+
+/* round */
+.round { 
+	border-top: none; 
+	border-radius: 1em; 
+}
+
+/* oval */
+.oval {
+	border-top: 			none; 
+	padding-left: 			.8em;
+	padding-right: 			.8em;
+	border-radius: 			5em / 2em; 
+}
+.oval.icon {
+	padding-left: 			.8em;
+	padding-right: 			.8em;	
+	border-radius: 			1.5em / 1em; 
+}
+
+/* brackets */
+.brackets { 
+	border-top: 			none; 
+	border-radius: 			.5em / 1em;
+}
